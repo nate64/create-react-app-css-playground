@@ -1,12 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
+import monkey from './logo.svg';
 import './App.css';
 
 function App() {
   return (
+    <div>
+      <div classname="navbar">
+        <container classname="nav-container">
+          <p>
+            text 
+          </p>
+          <p>
+            more text
+          </p>
+        </container>
+      </div>
+      
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={monkey} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -20,6 +32,9 @@ function App() {
         </a>
       </header>
     </div>
+    
+    </div>
+
   );
 }
 

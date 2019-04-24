@@ -1,3 +1,15 @@
+.navbar {
+  text-align: center;
+}
+
+.nav-container {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: aquamarine;
+}
+
 .App {
   text-align: center;
 }
